@@ -1,0 +1,66 @@
+header {
+  background: linear-gradient(#6e6e6e, #2f46af);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(29, 146, 255);
+}
+
+.form {
+  display: flex;
+  margin: 30px 0;
+  border-radius: 8px;
+  padding: 3px;
+  display: flex;
+  background-color: rgb(29, 146, 255);
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.form input {
+  width: 70%;
+  background-color: transparent;
+  border: 0;
+  font-size: 16px;
+  outline: none;
+  margin-right: 8px;
+}
+
+.form input::placeholder {
+  color: white;
+}
+
+.form button[type="buttonSearch"] {
+  background-color: rgb(29, 146, 255);
+  width: 25%;
+  height: 100%;
+  cursor: pointer;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+}
+
+.buttonSearch {
+  background-color: transparent;
+  border: 0;
+  transition: transform 0.5s;
+}
+
+.buttonSearch:hover {
+  transform: scale(1.2);
+}
+
+.title {
+  color: black;
+
+  animation: flipTitle 2s;
+}
+
+@keyframes flipTitle {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}

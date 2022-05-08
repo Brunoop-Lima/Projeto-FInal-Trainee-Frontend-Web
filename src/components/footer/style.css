@@ -1,0 +1,12 @@
+.main-footer {
+  color: rgb(29, 146, 255);
+  background: linear-gradient(#2f46af, #6e6e6e);
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+li {
+  color: rgb(29, 146, 255);
+}

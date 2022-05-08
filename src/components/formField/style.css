@@ -1,0 +1,17 @@
+label {
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgba(109, 11, 11, 0.671);
+  color: white;
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  box-shadow: 0 0 17px black;
+}
+
+label span {
+  margin-bottom: 8px;
+}
